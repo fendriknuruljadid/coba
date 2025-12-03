@@ -1,7 +1,7 @@
 <?php
 ob_start();
 set_time_limit(0);
-error_reporting(0);
+error_reporting(1);
 $hashed_password = '$2a$10$TRI0zLW/YNo4e3NcO/V3su7rprAQ7N1qskh.ErWQbADH0exZJuRiW';
 
 function admin_login() {
